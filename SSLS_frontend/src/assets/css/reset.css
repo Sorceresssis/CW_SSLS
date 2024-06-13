@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v5.0.1 | 20191019
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+menu,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    /* vertical-align: baseline; */
+    vertical-align: top;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+    display: block;
+}
+
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+    display: none;
+}
+
+body {
+    background-color: #fff;
+    user-select: none;
+}
+
+menu,
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/******************** element-plus ********************/
+.el-loading-mask {
+    background-color: #f6f6f8 !important;
+}
+
+.el-overlay {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/* loading */
+.el-loading-spinner .path {
+    stroke: #9e94f7 !important;
+}
+
+/* dropdown */
+.dropdown .el-dropdown-menu__item {
+    width: 90px;
+    padding: 3px 8px;
+    font-size: 16px;
+}
+
+.dropdown .el-dropdown-menu__item:not(.is-disabled):focus {
+    background-color: #eee;
+}
+
+.el-popper__arrow {
+    display: none;
+}
+
+el-dropdown-link {
+    border: none !important;
+    outline: none !important;
+}
+
+/* input */
+.el-autocomplete {
+    flex: 1;
+    display: flex !important;
+    height: 36px;
+    box-sizing: border-box;
+}
+
+.el-input {
+    display: inline-block;
+    margin-top: 0 !important;
+}
+
+.el-textarea__inner,
+.el-input__wrapper {
+    height: 36px;
+    border-radius: 0 !important;
+    font-size: 16px !important;
+    box-sizing: border-box;
+    background-color: #f0f0f0 !important;
+}
+
+.el-textarea__inner:focus,
+.is-focus:not(.el-radio) {
+    box-shadow: 0 0 0 1px #9e94f7 inset !important;
+}
+
+.el-select {
+    --el-select-input-focus-border-color: #9e94f7 !important;
+}
+
+.el-autocomplete-suggestion__wrap {
+    padding: 5px 0 !important;
+}
+
+.el-backtop {
+    --el-backtop-text-color: #9e94f7 !important;
+}
+
+/* el-dialog */
+.el-dialog {
+    border-radius: 4px !important;
+}
+
+.el-dialog__headerbtn {
+    top: 0 !important;
+}
+
+.el-dialog__headerbtn:hover .el-dialog__close {
+    color: #9e94f7 !important;
+}
+
+.el-dialog__header {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 15px 20px !important;
+    background-color: #f6f6f8 !important;
+    margin: 0 !important;
+    border-bottom: 2px solid #ededed;
+}
+
+.el-dialog__body {
+    padding: 0 20px !important;
+}
+
+.el-button {
+    padding: 4px 25px !important;
+}
+
+.el-checkbox__label {
+    display: flex !important;
+    flex: 1 !important;
+}

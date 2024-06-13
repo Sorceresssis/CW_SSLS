@@ -1,0 +1,101 @@
+body,
+html,
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 滚动盒子 */
+.list {
+    overflow-y: scroll;
+}
+
+.list::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+}
+
+.list::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #cfcfcf;
+}
+
+.link:hover {
+    color: #2b9af3;
+}
+
+/* flex */
+.flex-autoWidth--col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-autoWidth--row {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+/* img */
+.img--cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.img--contain {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.over-ellopsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 分割线 */
+.divider {
+    border-top: 1px dashed #ccc;
+    margin: 10px 0;
+}
+
+/* button */
+.button {
+    display: inline-block;
+    flex-shrink: 0;
+    height: 36px;
+    padding: 0 15px;
+    border: 1px solid #dcdfe6;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px 1px #eaeaea inset;
+    background-color: #fff;
+    vertical-align: bottom;
+    line-height: 36px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #e7e7e7;
+}
+
+.button span {
+    display: inline-block;
+    line-height: 36px;
+    min-width: 65px;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    color: #474747;
+}
+
+.button span:active {
+    transform: translate(.5px, .5px);
+}

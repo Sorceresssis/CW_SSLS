@@ -1,0 +1,82 @@
+.warning {
+    color: #f56c6c;
+}
+
+.allow {
+    color: #67c23a;
+}
+
+.sideBar {
+    width: 200px;
+    border-right: 2px solid #eeeeed;
+}
+
+.sideBar li {
+    line-height: 30px;
+    padding: 0 20px;
+}
+
+.sideBar li:hover:not(.activeSideBarItem) {
+    cursor: pointer;
+    background-color: #eeeeed;
+}
+
+.activeSideBarItem {
+    background-color: #9e94f7;
+    color: #fff;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* 分割线 */
+.divider {
+    border-top: 1px dashed #ccc;
+    margin: 10px 0;
+}
+
+/* dialog */
+.dialogCol {
+    display: flex;
+    justify-content: center;
+    line-height: 26px;
+    margin: 15px 0;
+}
+
+.dialogCol .col-title {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.dialogCol .col-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-content>div {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+
+/* 缩略图 */
+.thumbnail {
+    flex: 1;
+    display: grid;
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+    justify-content: space-around;
+    grid-gap: 20px;
+    column-gap: 20px;
+}
+
+.empty {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
